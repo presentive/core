@@ -1,0 +1,8 @@
+.progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 4px;
+  background: plum;
+  transition: width 320ms ease;
+}

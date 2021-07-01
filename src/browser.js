@@ -6,6 +6,7 @@ import { contentLoaded } from "./utils";
 import view from "./modules/view";
 import keys from "./modules/keys";
 import pageTitle from "./modules/pageTitle";
+import progress from "./modules/progress";
 
 const presentive = new Presentive(defaultOptions);
 
@@ -13,6 +14,7 @@ const presentive = new Presentive(defaultOptions);
 presentive.use(view);
 presentive.use(keys);
 presentive.use(pageTitle);
+presentive.use(progress);
 
 Object.defineProperty(window, "presentive", {
   value: presentive,
