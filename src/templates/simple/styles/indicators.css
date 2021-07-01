@@ -1,0 +1,18 @@
+.indicators {
+  position: absolute;
+  bottom: 8px;
+  right: 18px;
+  text-align: right;
+  font-size: 18px;
+  font-family: 700;
+}
+
+.indicators span:first-child {
+  color: darkorange;
+}
+
+.indicators span:last-child:before {
+  content: "/";
+  margin: 0 4px;
+  color: gainsboro;
+}
